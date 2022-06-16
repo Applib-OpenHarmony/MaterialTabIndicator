@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "entry_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "MainAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "tab_1",
+      "value": "Tab 1"
+    },
+    {
+      "name": "tab_2",
+      "value": "Tab 2"
+    },
+    {
+      "name": "tab_3",
+      "value": "Tab 3"
+    },
+    {
+      "name": "tab_4",
+      "value": "Tab 4"
+    },
+    {
+      "name": "tab_5",
+      "value": "Tab 5"
+    },
+    {
+      "name": "tab_6",
+      "value": "Tab 6"
+    },
+    {
+      "name": "tab_bar",
+      "value": "Tab Bar"
+    }
+  ]
+}
