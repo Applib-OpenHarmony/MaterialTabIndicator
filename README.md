@@ -8,8 +8,7 @@ Install using npm
 
 ```npm i ohos-material-tabs```
 
-Details about OpenHarmony NPM environment configuration, see
-at [here](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_npm_usage.md)
+For further details see at [here](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_npm_usage.md)
 
 ## Usage Instructions
 
@@ -129,12 +128,12 @@ Supports OpenHarmony API version 8
 ## Code Contribution
 
 If you find any problems during usage, you can submit
-an [Issue](https://github.com/N4-Nishant/Material_TabBar/issues) to us. Of course, we also welcome you to
-send us [PR](https://github.com/N4-Nishant/Material_TabBar/pulls).
+an [Issue](https://github.com/Applib-OpenHarmony/Material_UI_Tab-Indicator/issues) to us. Of course, we also welcome you to
+send us [PR](https://github.com/Applib-OpenHarmony/Material_UI_Tab-Indicator/pulls).
 
 ## Open source License
 
-Licensed under [Apache-2.0 license](https://github.com/N4-Nishant/Material_UI_Tab-Indicator/blob/main/LICENSE)
+Licensed under [Apache-2.0 license](https://github.com/Applib-OpenHarmony/Material_UI_Tab-Indicator/blob/main/LICENSE)
 
 # Reference:
 
