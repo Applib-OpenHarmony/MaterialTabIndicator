@@ -8,8 +8,6 @@ Install using npm
 
 ```npm i ohos-material-tabs```
 
-For further details see at [here](https://gitee.com/openharmony-tpc/docs/blob/master/OpenHarmony_npm_usage.md)
-
 ## Usage Instructions
 
 
