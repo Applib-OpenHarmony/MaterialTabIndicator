@@ -131,7 +131,7 @@ send us [PR](https://github.com/Applib-OpenHarmony/Material_UI_Tab-Indicator/pul
 
 ## Open source License
 
-Licensed under [Apache-2.0 license](https://github.com/Applib-OpenHarmony/Material_UI_Tab-Indicator/blob/main/LICENSE)
+Licensed under [Apache-2.0 license](https://github.com/N4-Nishant/Material_UI_Tab-Indicator/blob/main/LICENSE)
 
 # Reference:
 
