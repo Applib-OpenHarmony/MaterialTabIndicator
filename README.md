@@ -1,4 +1,4 @@
-# Material_UI_Tab-Indicator
+# MaterialTabIndicator
 
 This library is developed to provide Tab-Bars with different icon types and different bar types implemented using extended typescript.
 
