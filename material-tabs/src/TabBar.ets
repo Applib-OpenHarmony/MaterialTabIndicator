@@ -43,7 +43,7 @@ export struct TabBar {
   }
 
   build() {
-    if (this.model.getBarType() == TabBarType.fixed) {
+    if (this.model.getBarType() == TabBarType.FIXED) {
       Row() {
         ForEach(
         this.model.getModels(),
@@ -60,7 +60,7 @@ export struct TabBar {
         )
       }.width('100%')
     }
-    else if (this.model.getBarType() == TabBarType.scrollable) {
+    else if (this.model.getBarType() == TabBarType.SCROLLABLE) {
       List() {
         ForEach(
         this.model.getModels(),
@@ -76,7 +76,7 @@ export struct TabBar {
           item => item.getTabId()
         )
       }.listDirection(Axis.Horizontal)
-      .height(this.model.getIconType() == IconType.top ? 70 : 50)
+      .height(this.model.getIconType() == IconType.TOP ? 70 : 50)
     }
   }
 }
@@ -104,7 +104,7 @@ export struct Tab {
   build() {
     if (this.model != null && this.model != undefined) {
       Column() {
-        if (this.model.getIconType() == IconType.none) {
+        if (this.model.getIconType() == IconType.NONE) {
 
           Text(this.model.getTabName())
             .maxLines(2)
@@ -116,7 +116,7 @@ export struct Tab {
             .fontWeight(this.selectedTabId == this.model.getTabId() ? FontWeight.Bolder : FontWeight.Normal)
             .fontColor(this.selectedTabId == this.model.getTabId() ? this.model.getSelectedTabColor() : this.model.getNonSelectedTabColor())
 
-        } else if (this.model.getIconType() == IconType.top) {
+        } else if (this.model.getIconType() == IconType.TOP) {
 
           Image(this.model.getTabIcon()).width(24).height(24).margin({ top: 8 })
 
@@ -129,11 +129,11 @@ export struct Tab {
             .fontWeight(this.selectedTabId == this.model.getTabId() ? FontWeight.Bolder : FontWeight.Normal)
             .fontColor(this.selectedTabId == this.model.getTabId() ? this.model.getSelectedTabColor() : this.model.getNonSelectedTabColor())
 
-        } else if (this.model.getIconType() == IconType.leading) {
+        } else if (this.model.getIconType() == IconType.LEADING) {
 
           Row() {
             Image(this.model.getTabIcon()).width(20).height(20)
-              .margin(this.model.getBarType() == TabBarType.scrollable ? { left: -25 } : { left: -20 })
+              .margin(this.model.getBarType() == TabBarType.SCROLLABLE ? { left: -25 } : { left: -20 })
 
             Text(this.model.getTabName())
               .maxLines(2)
