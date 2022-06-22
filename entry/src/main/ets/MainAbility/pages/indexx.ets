@@ -36,33 +36,33 @@ struct Index {
 
   aboutToAppear() {
     this.model1
-      .setTabBarType(TabBarType.fixed)
-      .setTabIconType(IconType.none)
+      .setTabBarType(TabBarType.FIXED)
+      .setTabIconType(IconType.NONE)
       .setTabBarOptions(this.options)
 
     this.model2
-      .setTabBarType(TabBarType.fixed)
-      .setTabIconType(IconType.top)
+      .setTabBarType(TabBarType.FIXED)
+      .setTabIconType(IconType.TOP)
       .setTabBarOptions(this.options)
 
     this.model3
-      .setTabBarType(TabBarType.fixed)
-      .setTabIconType(IconType.leading)
+      .setTabBarType(TabBarType.FIXED)
+      .setTabIconType(IconType.LEADING)
       .setTabBarOptions(this.options)
 
     this.model4
-      .setTabBarType(TabBarType.scrollable)
-      .setTabIconType(IconType.none)
+      .setTabBarType(TabBarType.SCROLLABLE)
+      .setTabIconType(IconType.NONE)
       .setTabBarOptions(this.options)
 
     this.model5
-      .setTabBarType(TabBarType.scrollable)
-      .setTabIconType(IconType.top)
+      .setTabBarType(TabBarType.SCROLLABLE)
+      .setTabIconType(IconType.TOP)
       .setTabBarOptions(this.options)
 
     this.model6
-      .setTabBarType(TabBarType.scrollable)
-      .setTabIconType(IconType.leading)
+      .setTabBarType(TabBarType.SCROLLABLE)
+      .setTabIconType(IconType.LEADING)
       .setTabBarOptions(this.options)
   }
 
