@@ -14,5 +14,5 @@
  */
 
 export enum IconType{
-  none, top, leading
+  NONE, TOP, LEADING
 }
