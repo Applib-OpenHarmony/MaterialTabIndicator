@@ -14,5 +14,5 @@
  */
 
 export enum TabBarType{
-  fixed, scrollable
+  FIXED, SCROLLABLE
 }
