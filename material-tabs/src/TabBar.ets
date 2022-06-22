@@ -76,7 +76,7 @@ export struct TabBar {
           item => item.getTabId()
         )
       }.listDirection(Axis.Horizontal)
-      .height(this.model.getIconType() == IconType.TOP ? 70 : 50)
+      .height(this.model.getIconType() == IconType.TOP ? '70vp' : '50vp')
     }
   }
 }
@@ -112,19 +112,19 @@ export struct Tab {
             .textAlign(TextAlign.Center)
             .textOverflow({ overflow: TextOverflow.Ellipsis })
             .backgroundColor(this.model.getTabBackgroundColor())
-            .height(this.selectedTabId == this.model.getTabId() ? 44 : 46)
+            .height(this.selectedTabId == this.model.getTabId() ? '44vp' : '46vp')
             .fontWeight(this.selectedTabId == this.model.getTabId() ? FontWeight.Bolder : FontWeight.Normal)
             .fontColor(this.selectedTabId == this.model.getTabId() ? this.model.getSelectedTabColor() : this.model.getNonSelectedTabColor())
 
         } else if (this.model.getIconType() == IconType.TOP) {
 
-          Image(this.model.getTabIcon()).width(24).height(24).margin({ top: 8 })
+          Image(this.model.getTabIcon()).width('24vp').height('24vp').margin({ top: '8vp' })
 
           Text(this.model.getTabName())
             .maxLines(2)
             .fontSize('16fp')
             .textAlign(TextAlign.Center)
-            .margin({ top: 8, bottom: this.selectedTabId == this.model.getTabId() ? 2 : 8 })
+            .margin({ top: '8vp', bottom: this.selectedTabId == this.model.getTabId() ? '2vp' : '8vp' })
             .textOverflow({ overflow: TextOverflow.Ellipsis })
             .fontWeight(this.selectedTabId == this.model.getTabId() ? FontWeight.Bolder : FontWeight.Normal)
             .fontColor(this.selectedTabId == this.model.getTabId() ? this.model.getSelectedTabColor() : this.model.getNonSelectedTabColor())
@@ -132,16 +132,16 @@ export struct Tab {
         } else if (this.model.getIconType() == IconType.LEADING) {
 
           Row() {
-            Image(this.model.getTabIcon()).width(20).height(20)
-              .margin(this.model.getBarType() == TabBarType.SCROLLABLE ? { left: -25 } : { left: -20 })
+            Image(this.model.getTabIcon()).width('20vp').height('20vp')
+              .margin(this.model.getBarType() == TabBarType.SCROLLABLE ? { left: '-25vp' } : { left: '-20vp' })
 
             Text(this.model.getTabName())
               .maxLines(2)
               .fontSize('16fp')
               .textAlign(TextAlign.Center)
-              .margin({ left: -20, right: 2 })
+              .margin({ left: '-20vp', right: '2vp' })
               .textOverflow({ overflow: TextOverflow.Ellipsis })
-              .height(this.selectedTabId == this.model.getTabId() ? 44 : 46)
+              .height(this.selectedTabId == this.model.getTabId() ? '44vp' : '46vp')
               .fontWeight(this.selectedTabId == this.model.getTabId() ? FontWeight.Bolder : FontWeight.Normal)
               .fontColor(this.selectedTabId == this.model.getTabId() ? this.model.getSelectedTabColor() : this.model.getNonSelectedTabColor())
           }
@@ -153,7 +153,7 @@ export struct Tab {
         Shape() {
           Rect()
             .width('100%')
-            .height(this.selectedTabId == this.model.getTabId() ? 4 : 2)
+            .height(this.selectedTabId == this.model.getTabId() ? '4vp' : '2vp')
         }
         .fill(this.selectedTabId == this.model.getTabId() ? this.model.getSelectedTabColor() : this.model.getRectColor())
 
