@@ -24,8 +24,8 @@ export class TabBarModel {
 
   private tabWidth: string = '30%'
 
-  private barType: TabBarType = TabBarType.fixed
-  private iconType: IconType = IconType.none
+  private barType: TabBarType = TabBarType.FIXED
+  private iconType: IconType = IconType.NONE
   private tabBarOptions: TabBarOptions[] = []
 
   private selectedTabColor: string | Color = "#A020F0"
@@ -112,7 +112,7 @@ export class TabBarModel {
   buildModels() {
     let list: TabBarModel[] = []
 
-    let width = this.getBarType() == TabBarType.fixed
+    let width = this.getBarType() == TabBarType.FIXED
       ? (100 / this.getTabBarOptions().length) + '%'
       : '30%'
 
