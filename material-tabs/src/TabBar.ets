@@ -108,7 +108,7 @@ export struct Tab {
 
           Text(this.model.getTabName())
             .maxLines(2)
-            .fontSize(16)
+            .fontSize('16fp')
             .textAlign(TextAlign.Center)
             .textOverflow({ overflow: TextOverflow.Ellipsis })
             .backgroundColor(this.model.getTabBackgroundColor())
@@ -122,7 +122,7 @@ export struct Tab {
 
           Text(this.model.getTabName())
             .maxLines(2)
-            .fontSize(16)
+            .fontSize('16fp')
             .textAlign(TextAlign.Center)
             .margin({ top: 8, bottom: this.selectedTabId == this.model.getTabId() ? 2 : 8 })
             .textOverflow({ overflow: TextOverflow.Ellipsis })
@@ -137,7 +137,7 @@ export struct Tab {
 
             Text(this.model.getTabName())
               .maxLines(2)
-              .fontSize(16)
+              .fontSize('16fp')
               .textAlign(TextAlign.Center)
               .margin({ left: -20, right: 2 })
               .textOverflow({ overflow: TextOverflow.Ellipsis })
