@@ -124,23 +124,23 @@ export class TabBarModel {
       setId.add(item.getId())
 
 
-        let model = new TabBarModel()
-          .setTabId(item.getId())
-          .setTabName(item.getName())
-          .setTabIcon(item.getIcon())
-          .setTabIconType(this.getIconType())
-          .setTabBarType(this.getBarType())
+      let model = new TabBarModel()
+        .setTabId(item.getId())
+        .setTabName(item.getName())
+        .setTabIcon(item.getIcon())
+        .setTabIconType(this.getIconType())
+        .setTabBarType(this.getBarType())
 
-        model.tabWidth = width
+      model.tabWidth = width
 
-        list.push(model)
+      list.push(model)
     }
 
-    if(setId.size == this.getTabBarOptions().length){
+    if (setId.size == this.getTabBarOptions().length) {
       this.models = list
     }
 
-    else{
+    else {
       this.models = []
     }
   }
@@ -148,5 +148,4 @@ export class TabBarModel {
   getModels(): TabBarModel[]{
     return this.models
   }
-
 }
