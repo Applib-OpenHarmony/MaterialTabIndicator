@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "tab_1",
+      "value": "标签 1"
+    },
+    {
+      "name": "tab_2",
+      "value": "标签 2"
+    },
+    {
+      "name": "tab_3",
+      "value": "标签 3"
+    },
+    {
+      "name": "tab_4",
+      "value": "标签 4"
+    },
+    {
+      "name": "tab_5",
+      "value": "标签 5"
+    },
+    {
+      "name": "tab_6",
+      "value": "标签 6"
+    },
+    {
+      "name": "tab_bar",
+      "value": "标签栏"
+    }
+  ]
+}
