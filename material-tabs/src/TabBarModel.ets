@@ -111,30 +111,42 @@ export class TabBarModel {
 
   buildModels() {
     let list: TabBarModel[] = []
+    let setId = new Set()
 
     let width = this.getBarType() == TabBarType.FIXED
       ? (100 / this.getTabBarOptions().length) + '%'
       : '30%'
 
+
     for (var i = 0; i < this.getTabBarOptions().length; i++) {
       let item = this.getTabBarOptions()[i]
 
-      let model = new TabBarModel()
-        .setTabId(item.getId())
-        .setTabName(item.getName())
-        .setTabIcon(item.getIcon())
-        .setTabIconType(this.getIconType())
-        .setTabBarType(this.getBarType())
+      setId.add(item.getId())
 
-      model.tabWidth = width
 
-      list.push(model)
+        let model = new TabBarModel()
+          .setTabId(item.getId())
+          .setTabName(item.getName())
+          .setTabIcon(item.getIcon())
+          .setTabIconType(this.getIconType())
+          .setTabBarType(this.getBarType())
+
+        model.tabWidth = width
+
+        list.push(model)
     }
 
-    this.models = list
+    if(setId.size == this.getTabBarOptions().length){
+      this.models = list
+    }
+
+    else{
+      this.models = []
+    }
   }
 
   getModels(): TabBarModel[]{
     return this.models
   }
+
 }
