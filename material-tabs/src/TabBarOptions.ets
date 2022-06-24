@@ -13,12 +13,12 @@
  * limitations under the License.
  */
 
-export class TabBarOptions{
+export class TabBarOptions {
   private id: number = -1
   private name: string | Resource = ""
   private icon: Resource = null
 
-  constructor(id: number, name: string | Resource, icon: Resource){
+  constructor(id: number, name: string | Resource, icon: Resource) {
     this.id = id
     this.name = name
     this.icon = icon
