@@ -6,7 +6,7 @@ This library is developed to provide Tab-Bars with different icon types and diff
 
 Install using npm
 
-```npm i ohos-material-tabs```
+```npm i @ohos/material-tabs```
 
 ## Usage Instructions
 
