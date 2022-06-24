@@ -1,5 +1,5 @@
 {
-  "name": "material-tabs",
+  "name": "@ohos/material-tabs",
   "version": "1.0.0",
   "description": "",
   "main": "src/TabBar.ets",
