@@ -13,6 +13,6 @@
  * limitations under the License.
  */
 
-export enum IconType{
+export enum IconType {
   NONE, TOP, LEADING
 }
