@@ -69,7 +69,8 @@ TabBar({
         onSelect: this.onTabSelected
       })
 ```
-![FixedTab_LeadingIcon](https://user-images.githubusercontent.com/82766420/174062884-92512aba-c431-4e3d-83c6-b8eea8d3123e.png)
+![FixedTab_LeadingIcon](https://user-images.githubusercontent.com/82766420/175473906-c0001113-dcc4-4066-b781-73b57351ce38.png)
+
 
 6. Code for creating Scrollable TabBar with No icon(only text)
 
