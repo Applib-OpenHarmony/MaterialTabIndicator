@@ -14,7 +14,7 @@
  */
 
 import prompt from '@system.prompt';
-import { Tab, TabBarOptions, TabBar, TabBarType, IconType, TabBarModel }  from '@ohos/material-tabs'
+import { TabBarOptions, TabBar, TabBarType, IconType, TabBarModel }  from '@ohos/material-tabs'
 
 @Entry
 @Component
