@@ -1,3 +1,4 @@
+
 /*
  * Copyright (c) 2022 Application Library Engineering Group.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,3 +23,4 @@ export { TabBarOptions } from './src/main/ets/components/TabBarOptions';
 export { TabBarType } from './src/main/ets/components/TabBarType';
 
 export { IconType } from './src/main/ets/components/IconType';
+
