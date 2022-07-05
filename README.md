@@ -122,7 +122,7 @@ TabBar({
 
 ## Compatibility
 
-Supports OpenHarmony API version 8
+Supports OpenHarmony API version 9
 
 ## Code Contribution
 
