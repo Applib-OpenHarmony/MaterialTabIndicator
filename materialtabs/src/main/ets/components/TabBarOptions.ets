@@ -13,5 +13,26 @@
  * limitations under the License.
  */
 
-// Script for compiling build behavior. It is built in the build plug-in and cannot be modified currently.
-module.exports = require('@ohos/hvigor-ohos-plugin').hapTasks
+export class TabBarOptions {
+  private id: number = -1
+  private name: string | Resource = ""
+  private icon: Resource = null
+
+  constructor(id: number, name: string | Resource, icon: Resource) {
+    this.id = id
+    this.name = name
+    this.icon = icon
+  }
+
+  getId(): number{
+    return this.id
+  }
+
+  getName(): string | Resource{
+    return this.name
+  }
+
+  getIcon(): Resource{
+    return this.icon
+  }
+}

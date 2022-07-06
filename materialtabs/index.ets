@@ -1,3 +1,4 @@
+
 /*
  * Copyright (c) 2022 Application Library Engineering Group.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,5 +14,13 @@
  * limitations under the License.
  */
 
-// Script for compiling build behavior. It is built in the build plug-in and cannot be modified currently.
-module.exports = require('@ohos/hvigor-ohos-plugin').hapTasks
+export { TabBar } from './src/main/ets/components/TabBar';
+
+export { TabBarModel } from './src/main/ets/components/TabBarModel';
+
+export { TabBarOptions } from './src/main/ets/components/TabBarOptions';
+
+export { TabBarType } from './src/main/ets/components/TabBarType';
+
+export { IconType } from './src/main/ets/components/IconType';
+
